@@ -1,21 +1,21 @@
-import Nav from './components/Nav'
-import Home from './components/Home'
-import About from './components/About'
-import Facts from './components/Facts'
-import Skills from './components/Skills'
-import Resume from './components/Resume'
-import Portfolio from './components/Portfolio'
-import Services from './components/Services'
-import Testimonials from './components/Testimonials'
-import Contact from './components/Contact'
-import Footer from './components/Footer'
+import Header from './sections/Header'
+import Home from './sections/Home'
+import About from './sections/About'
+import Facts from './sections/Facts'
+import Skills from './sections/Skills'
+import Resume from './sections/Resume'
+import Portfolio from './sections/Portfolio'
+import Services from './sections/Services'
+import Testimonials from './sections/Testimonials'
+import Contact from './sections/Contact'
+import Footer from './sections/Footer'
 
 export default function App() {
 
   return (
     <>
       <main>
-        <Nav />
+        <Header />
         <Home />
         <About />
         <Facts />
